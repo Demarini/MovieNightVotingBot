@@ -151,7 +151,7 @@ namespace DiscordBot.Services
                     {
                         _movieNight.IsStarted = true;
                         await channel.SendMessageAsync("Voting started! Type !Commands for the list of commands available.");
-                        await _movieNight.DisplayMessage();   
+                        //await _movieNight.DisplayMessage();   
                     }
                     else
                     {
